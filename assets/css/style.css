@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+*, *::before, *::after {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, * {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  padding: .2em 0em;
+}
+
+.bg-snow {
+  background-color: #FAFAFA;
+}
+
+.bg-taupe {
+  background-color: #91918D;
+}
+
+.bg-jelly {
+  background-color: #E56353;
+}
+
+.bg-granite {
+  background-color: #686963;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-taupe {
+  color: #91918D;
+}
+
+.text-granite {
+  color: #686963;
+}
+
+.fw-3 {
+  font-weight: 300;
+}
+
+.fw-4 {
+  font-weight: 400;
+}
+
+.fw-7 {
+  font-weight: 700;
+}
+
+.fs-xx-large {
+  font-size: 100px;
+}
+
+.fs-x-large {
+  font-size: 70px;
+}
+
+.fs-large {
+  font-size: 50px;
+}
+
+.fs-medium {
+  font-size: 18px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 50px;
+  color: #fff;
+  background-color: #E56353;
+  padding: 3em 0em;
+}
+
+.header h1 {
+  font-weight: 300;
+}
+
+.header h2 {
+  font-weight: 700;
+}
+
+.main article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main article img {
+  height: 35em;
+  padding: 4em 0em 2em 0em;
+}
+
+.main article h1 {
+  font-size: 50px;
+  padding-bottom: .5em;
+}
+
+.main article .parrafo {
+  width: 45%;
+  font-size: 18px;
+  padding-bottom: 5em;
+}
+
+.main .about-us section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em;
+}
+
+.main .venta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em;
+}
+
+.main .venta h1 {
+  padding-bottom: 1em;
+  font-size: 50px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer img {
+  height: 7em;
+  padding: 1em;
+}
+
+.btn, .btn-big, .btn-large, .btn-medium, .btn-small {
+  padding: 0.5em 2em;
+  color: #686963;
+  background-color: #fff;
+  border: 1px solid #686963;
+  border-radius: 5em;
+}
+
+.btn:hover, .btn-big:hover, .btn-large:hover, .btn-medium:hover, .btn-small:hover {
+  color: #fff;
+  background-color: #91918D;
+}
+
+.btn:focus, .btn-big:focus, .btn-large:focus, .btn-medium:focus, .btn-small:focus {
+  color: #fff;
+  background-color: #91918D;
+  -webkit-box-shadow: 0px 0px 3px 4px #6c6d6b86;
+          box-shadow: 0px 0px 3px 4px #6c6d6b86;
+}
+
+.btn-big {
+  font-size: 1.8em;
+}
+
+.btn-large {
+  font-size: 1.4em;
+}
+
+.btn-medium {
+  font-size: 1.1em;
+}
+
+.btn-small {
+  font-size: 0.9em;
+}
+
+.nav {
+  background-color: #FAFAFA;
+}
+
+.nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em 10em 1em;
+}
+
+.nav .container img {
+  height: 2.2em;
+}
+/*# sourceMappingURL=style.css.map */

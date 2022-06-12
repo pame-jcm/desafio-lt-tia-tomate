@@ -1,0 +1,17 @@
+@import '../abstract/mixins';
+@import '../abstract/variables';
+
+.header{
+    @include element-base(center,column);
+    font-size: $fs-large;
+    color:$white-color;
+    background-color: $jelly-color;
+    padding: 3em 0em;
+    h1{
+        font-weight: 300;
+    }
+
+    h2{
+        font-weight: 700;
+    }
+}

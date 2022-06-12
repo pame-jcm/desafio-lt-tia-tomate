@@ -1,0 +1,43 @@
+@mixin element-base($align,$direction) {
+
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $align;
+    align-items: center;
+    
+}
+
+@mixin btn-base(
+        $pd-x, 
+        $pd-y,
+        $color,
+        $bg-color,
+        $border-height,
+        $border-style,
+        $border-color,
+        $border-radius,
+        $color-hover,
+        $bg-color-hover,
+        $color-focus,
+        $bg-color-focus,
+        $box-shadow) {
+
+    padding: $pd-x $pd-y;
+    color:$color;
+    background-color: $bg-color;
+    border:$border-height $border-style $border-color;
+    border-radius: $border-radius;
+
+    &:hover{
+        color:$color-hover;
+        background-color: $bg-color-hover;
+    }
+
+    &:focus{
+        color:$color-focus;
+        background-color: $bg-color-focus;
+        box-shadow: $box-shadow;
+        //border:$border-height-focus $border-style-focus $border-color-focus;
+    }
+    
+}

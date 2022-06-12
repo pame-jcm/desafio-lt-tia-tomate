@@ -1,0 +1,42 @@
+@import '../abstract/mixins';
+@import '../abstract/variables';
+
+
+.btn{
+    @include btn-base(
+        .5em, 
+        2em,
+        $granite-color,
+        $white-color,
+        1px,
+        solid,
+        $granite-color,
+        5em,
+        $white-color,
+        $taupe-color,
+        $white-color,
+        $taupe-color,
+        $btn-box-shadow
+    );
+
+}
+
+.btn-big{
+    @extend .btn;
+    font-size: $bs-big;
+}
+
+.btn-large{
+    @extend .btn;
+    font-size: $bs-large;
+}
+
+.btn-medium{
+    @extend .btn;
+    font-size: $bs-medium;
+}
+
+.btn-small{
+    @extend .btn;
+    font-size: $bs-small;
+}

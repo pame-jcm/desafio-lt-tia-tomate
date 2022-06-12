@@ -1,0 +1,15 @@
+@import '../abstract/variables';
+@import '../abstract/mixins';
+
+.nav{
+    background-color: $snow-color;
+
+    .container{
+        @include element-base(start,row);
+        padding:1em 10em 1em;
+        img{
+            height: 2.2em;
+        }
+        
+    }
+}

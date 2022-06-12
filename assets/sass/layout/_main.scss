@@ -1,0 +1,41 @@
+@import '../abstract/mixins';
+@import '../abstract/variables';
+
+.main{
+    article{
+        @include element-base(center, column);
+        img{
+            height: 35em;
+            padding: 4em 0em 2em 0em;
+        }
+    
+        h1{
+            font-size: $fs-large;
+            padding-bottom: .5em;
+        }
+    
+        .parrafo{
+            width: 45%;
+            font-size: $fs-medium;
+            padding-bottom: 5em;
+        }
+    }
+
+    .about-us{
+        section{
+            @include element-base(center, column);
+            padding: 2em;
+        }
+    }
+
+    .venta{
+        @include element-base(center, column);
+        padding:2em;
+
+        h1{
+            padding-bottom:1em;
+            font-size: $fs-large;
+        }
+    }
+}
+

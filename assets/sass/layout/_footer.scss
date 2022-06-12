@@ -1,0 +1,9 @@
+@import '../abstract/mixins';
+
+.footer{
+    @include element-base(center,column);
+    img{
+        height: 7em;
+        padding: 1em;
+    }
+}
